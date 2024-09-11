@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.invoice-container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.header,
+.details,
+.table-container,
+.footer {
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company-logo label {
+    margin-bottom: 5px;
+}
+
+.invoice-title {
+    text-align: right;
+}
+
+.invoice-title h2 {
+    margin: 0;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-left,
+.details-right {
+    width: 48%;
+}
+
+.details h4 {
+    margin: 5px 0;
+}
+
+.table-container {
+    width: 100%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #000;
+}
+
+th,
+td {
+    padding: 8px;
+    /* Reduced margin for columns */
+    text-align: left;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign-area,
+.total-area {
+    width: 48%;
+}
+
+.total-area {
+    text-align: right;
+}
+
+.totals-table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.totals-table td {
+    padding: 5px;
+}
+
+.reverse-charge {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.invoice-container input,
+.invoice-container select,
+.invoice-container textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+.invoice-title .saveInvoice {
+    width: 99px;
+    padding: 2px;
+}

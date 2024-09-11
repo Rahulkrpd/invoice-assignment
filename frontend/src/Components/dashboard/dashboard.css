@@ -1,0 +1,78 @@
+.dashboard-wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden; /* Prevents overflow from the dashboard wrapper */
+}
+
+.side-nav {
+    width: 20%;
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the profile info */
+    position: fixed; /* Fixes the side-nav */
+    height: 100vh; /* Full height for the sidebar */
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.main-container {
+    margin-left: 20%; /* Make space for the fixed side-nav */
+    width: 80%;
+    background-color: #eee;
+    height: 100vh;
+    overflow-y: auto; /* Enables scrolling for the main container */
+    padding: 20px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-info img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%; /* Make the image circular */
+    object-fit: cover; /* Ensure the image fits nicely within the circle */
+    margin-bottom: 10px; /* Add space between image and name */
+    border: 2px solid white; /* Optional: Add a border to the image */
+}
+
+.profile-info p {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profile-info button {
+    padding: 3px;
+    color: #282c34;
+}
+
+.profile-info button:hover {
+    background-color: red;
+}
+
+.side-nav .line {
+    margin-top: 10px;
+    color: white;
+    font-size: large;
+    width: 100%;
+}
+
+.menu-link {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-link:hover {
+    color: #313743;
+}
